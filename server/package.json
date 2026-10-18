@@ -1,0 +1,25 @@
+{
+  "name": "skribbl-server",
+  "version": "1.0.0",
+  "description": "Real-time WebSocket and game state server for skribbl.io clone",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc && node -e \"const fs=require('fs'); fs.mkdirSync('dist/data', {recursive:true}); fs.copyFileSync('src/data/words.json', 'dist/data/words.json');\"",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
