@@ -1,0 +1,25 @@
+{
+  "animals": [
+    "cat", "dog", "elephant", "giraffe", "monkey", "penguin", "dolphin", "kangaroo", 
+    "lion", "tiger", "zebra", "rabbit", "panda", "crocodile", "octopus", "parrot",
+    "shark", "whale", "camel", "hamster", "hedgehog", "flamingo", "sloth", "owl"
+  ],
+  "objects": [
+    "chair", "table", "laptop", "telephone", "backpack", "umbrella", "toothbrush", 
+    "guitar", "clock", "television", "scissors", "glasses", "pencil", "camera", 
+    "candle", "lamp", "mirror", "pillow", "headphones", "bicycle", "skateboard"
+  ],
+  "food": [
+    "pizza", "burger", "ice cream", "banana", "apple", "sandwich", "spaghetti", 
+    "pancake", "sushi", "cookie", "donut", "taco", "popcorn", "chocolate", 
+    "watermelon", "pineapple", "strawberry", "croissant", "french fries"
+  ],
+  "actions": [
+    "swimming", "dancing", "sleeping", "cooking", "flying", "running", "singing", 
+    "reading", "jumping", "painting", "fishing", "laughing", "climbing", "crying"
+  ],
+  "places": [
+    "beach", "castle", "hospital", "school", "library", "airport", "forest", 
+    "supermarket", "museum", "island", "mountain", "pyramid", "circus", "cinema"
+  ]
+}
