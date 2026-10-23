@@ -4,7 +4,7 @@ A real-time multiplayer drawing game inspired by skribbl.io, built as part of my
 
 **Built with:** React, TypeScript, Node.js, Express, Socket.IO, HTML5 Canvas, Tailwind CSS
 
-> **Live Demo:** `https://your-deployed-url.onrender.com` *(update this after deployment)*
+> **Live Demo:** [https://web3task-skribbl-assessment.onrender.com](https://web3task-skribbl-assessment.onrender.com)
 
 ---
 
